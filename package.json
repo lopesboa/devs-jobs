@@ -5,7 +5,20 @@
   "repository": "https://github.com/lopesboa/devs-jobs.git",
   "author": "lopesboa <lopesboa1@gmail.com>",
   "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+  ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^4.0.7",
+    "lint-staged": "^9.5.0",
     "standard": "^14.3.1"
   }
 }
