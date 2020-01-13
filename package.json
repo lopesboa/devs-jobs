@@ -1,0 +1,8 @@
+{
+  "name": "devs-jobs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lopesboa/devs-jobs.git",
+  "author": "lopesboa <lopesboa1@gmail.com>",
+  "license": "MIT"
+}
