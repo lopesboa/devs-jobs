@@ -2,8 +2,6 @@ import React from 'react'
 
 import Job from './job'
 
-// import { Container } from './styles';
-
 export default function jobs ({ jobs }) {
   return (
     <div className='job-list'>
