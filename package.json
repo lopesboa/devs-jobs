@@ -6,11 +6,12 @@
   "author": "lopesboa <lopesboa1@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "sucrase ./backend -d ./build --transforms imports"
+    "build": "sucrase ./backend -d ./build --transforms importss"
   },
   "standard": {
     "ignore": [
-      "serviceWorker.js"
+      "serviceWorker.js",
+      "index.js"
     ]
   },
   "dependencies": {
