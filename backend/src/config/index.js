@@ -3,4 +3,8 @@ const CronJob = require('cron').CronJob
 
 const fetchData = require('./fetchData')
 
-new CronJob('* * * * *', fetchData.getData, null, true, 'America/Sao_Paulo')
+
+  new CronJob('* * * * *', fetchData.getData, null, true, 'America/Sao_Paulo')
+
+
+module.exports = CronJob
