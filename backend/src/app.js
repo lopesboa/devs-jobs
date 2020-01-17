@@ -1,6 +1,7 @@
 const express = require('express')
 
 const routes = require('./routes')
+const cronJobs = require('./config/')
 
 class App {
   constructor () {
@@ -8,11 +9,16 @@ class App {
 
     process.env.TZ = 'America/Sao_Paulo'
 
+    this.cronJobs()
     this.routes()
   }
 
   routes () {
     this.express.use(routes)
+  }
+
+  cronJobs () {
+    this.express.use(cronJobs)
   }
 }
 
