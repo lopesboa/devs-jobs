@@ -15,7 +15,8 @@
     ]
   },
   "dependencies": {
-    "cron": "^1.7.2"
+    "cron": "^1.7.2",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
