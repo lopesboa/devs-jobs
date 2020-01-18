@@ -8,7 +8,7 @@ const mockJobs = [
     company: 'Google'
   }
 ]
-export default class Jobs extends Component {
+export default class jobs extends Component {
   render () {
     return (
       <div>

@@ -2,13 +2,17 @@ import React from 'react'
 import './App.css'
 
 import Jobs from './components/jobs/'
+import GlobalStyle from './styles/global'
 
 function App () {
   return (
-    <div className='App'>
-      <Jobs />
+    <>
+      <GlobalStyle />
+      <div className='App'>
+        <Jobs />
 
-    </div>
+      </div>
+    </>
   )
 }
 
