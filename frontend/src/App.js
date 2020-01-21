@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
 
-import Jobs from './components/jobs/'
+import Jobs from './components/pages/jobs/'
+import Home from './components/pages/home'
 import GlobalStyle from './styles/global'
 
 function App () {
@@ -9,6 +10,7 @@ function App () {
     <>
       <GlobalStyle />
       <div className='App'>
+        <Home />
         <Jobs />
 
       </div>
