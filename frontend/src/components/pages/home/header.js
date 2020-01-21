@@ -1,10 +1,10 @@
 import React from 'react'
 
-// import { Container } from './styles';
+import { Header } from './style'
 
 export default function header () {
   return (
-    <header className='container header'>
+    <Header className='container header'>
       <h1 className='fontzero'>Lorem ipsum dolor sit.</h1>
       <article>
         <div className='header__logo-box'>
@@ -17,6 +17,6 @@ export default function header () {
           <a className='btn btn--white btn--animated' href='http://' title='Saiba Mais' rel='Saiba Mais'>Saiba Mais</a>
         </div>
       </article>
-    </header>
+    </Header>
   )
 }
